@@ -26,9 +26,49 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
+    background-color: ;
+}
+
+h1 {
+    font-family: 'lilita one', cursive, sans-serif;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: 'lilita one', cursive, sans-serif;
+    font-weight: normal;
+}
+
+
+header {
+    background: linear-gradient(to bottom, var(--veremlho) 1%, var(--amarelo) 98%);
+    border-radius: 0px 0px 10px 10px;
+    color: var(--preto);
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 header>h1 {
     font-family: "Lilita One", cursive, sans-serif;
     font-weight: normal;
+    background: linear-gradient(to right, #020de6, #2b35f8);
+    color: rgb(238, 238, 238);
+    width: 300px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+header>p {
+    text-decoration: underline;
+    font-weight: bold;
+    margin-top: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border: #0D0D0D 1px solid;
+}
+
+
+main {
+
 }
